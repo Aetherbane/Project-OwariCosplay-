@@ -1,18 +1,22 @@
 /*@import url(http://fonts.googleapis.com/css?family=Lato);*/
 @import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
 
-$body-bg:											#ecf0f1;
+$body-bg:											white;
 $font-family-sans-serif:			'Press Start 2P', sans-serif;
-$navbar-default-bg:						#c0392b;
-$navbar-default-link-color:		#f1c40f; 
-$navbar-default-brand-color:	#f1c40f;
-$navbar-default-brand-hover-color: #f1c40f;
-$brand-primary:								#c0392b;/*button color */
-$jumbotron-bg:								#bdc3c7;
-$navbar-default-link-hover-color:	#2c3e50;
-
+$navbar-default-bg:						#ce0000;
+$navbar-default-link-color:		#ff9e00; 
+$navbar-default-brand-color:	#ff9e00;
+$navbar-default-brand-hover-color: yellow;
+$brand-primary:								#ff9e00;/*button color */
+$jumbotron-bg:								#ce0000;
+$navbar-default-link-hover-color: yellow;
+$jumbotron-color: yellow;
 
 @import 'bootstrap'; 
+
+h1 {
+	text-shadow: -2px 2px 0px #000;
+}
 
 .center {
 	text-align: center;
@@ -20,4 +24,8 @@ $navbar-default-link-hover-color:	#2c3e50;
 
 .navbar-brand {
 	font-weight: bold;
+}
+
+.pop a:hover {
+	text-shadow: -2px 2px 0px #000;
 }
