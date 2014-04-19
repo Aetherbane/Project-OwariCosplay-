@@ -3,12 +3,12 @@
 
 $body-bg:											white;
 $font-family-sans-serif:			'Press Start 2P', sans-serif;
-$navbar-default-bg:						#ce0000;
+$navbar-default-bg:						#009ece;
 $navbar-default-link-color:		#ff9e00; 
 $navbar-default-brand-color:	#ff9e00;
 $navbar-default-brand-hover-color: yellow;
 $brand-primary:								#ff9e00;/*button color */
-$jumbotron-bg:								#ce0000;
+$jumbotron-bg:								#009ece;
 $navbar-default-link-hover-color: yellow;
 $jumbotron-color: yellow;
 
@@ -28,4 +28,8 @@ h1 {
 
 .pop a:hover {
 	text-shadow: -2px 2px 0px #000;
+}
+
+.button-pop:hover {
+	box-shadow: -2px 2px 0px #000;
 }
